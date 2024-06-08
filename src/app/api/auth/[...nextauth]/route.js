@@ -1,7 +1,6 @@
 import GoogleProvider from 'next-auth/providers/google'
 import nextAuth from 'next-auth'
 import 'dotenv/config'
-console.log("Envs",process.env)
 const handler=nextAuth({
 
     providers:[
